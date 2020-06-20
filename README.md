@@ -1,2 +1,3 @@
 # jlandure-dev
-jlandure.dev website
+
+Sources for the [jlandure.dev website](jlandure.dev)

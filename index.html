@@ -1,14 +1,27 @@
 <html>
-  <head>
-    <title>jlandure.dev</title>
-    <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"
-    />
-  </head>
-  <body>
-    <h1>🚀 Julien Landuré</h1>
+
+<head>
+  <title>Julien Landuré - jlandure.dev</title>
+  <meta charset="UTF-8" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>" />
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <header>
+    <p>👋 Hi, I am</p>
+    <h1>Julien Landuré</h1>
+    <h2><span class="typed-text"></span>
+      <span class="cursor" aria-label="">&nbsp;</span>
+      <span id="text" aria-hidden="true"></span>
+      based in Nantes, France 🇫🇷
+    </h2>
+    <div>
+      <a href="#find-me" class="btn-branding">⚡️ Let's get started ⚡️</a>
+    </div>
+  </header>
+  <main>
     <h2>Bio 🇬🇧</h2>
     <p>
       CTO at Zenika, Julien is also Google Developer Expert Cloud. He loves
@@ -22,28 +35,34 @@
       co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des
       technologies Google et organise chaque année le DevFest Nantes.
     </p>
-    <h2>Find me</h2>
+    <h2 id="find-me">Find me</h2>
     <ul>
       <li><a href="//twitter.com/jlandure">Twitter</a></li>
+      <!-- <a href="https://twitter.com/jlandure" rel="noopener" target="_blank"><img class="social-icon"
+          src="assets/twitter.svg" width="24" height="24" alt="Twitter"></a> -->
       <li><a href="//linkedin.com/in/jlandure">LinkedIn</a></li>
       <li><a href="//github.com/jlandure">GitHub</a></li>
       <li><a href="//dev.to/jlandure">DEV.to</a></li>
       <li><a href="//medium.com/@jlandure">Medium</a></li>
       <li><a href="//speakerdeck.com/jlandure">Speakerdeck</a></li>
       <li>
-        <a
-          href="//www.youtube.com/playlist?list=PLdVDu8iO6zrMurVwGrFR23uw5OtGh4vFx"
-          >Youtube</a
-        >
+        <a href="//www.youtube.com/playlist?list=PLdVDu8iO6zrMurVwGrFR23uw5OtGh4vFx">Youtube</a>
       </li>
       <li>
-        <a
-          href="//developers.google.com/community/experts/directory/profile/profile-julien_landur_C3_A9"
-          >GDE Cloud</a
-        >
+        <a href="//developers.google.com/community/experts/directory/profile/profile-julien_landur_C3_A9">GDE Cloud</a>
       </li>
       <li><a href="//blog.zenika.com/author/jlandure2">Zenika blog</a></li>
       <li><a href="//slack.nantes.community">Slack Nantes Dev Community</a></li>
     </ul>
-  </body>
+
+    <h2>Timeline</h2>
+    <ol>
+      <li>
+        📝 TODO <span class="detail-tag">Blog</span><span class="detail-tag">Talk</span>
+      </li>
+      </ul>
+  </main>
+  <script src="/typedtext.js"></script>
+</body>
+
 </html>
